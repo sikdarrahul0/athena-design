@@ -1,0 +1,32 @@
+input[type="text"] {
+    width: 500px;
+    height: 44px;
+    padding-right: 50px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+input[type="submit"] {
+    margin-left: -108px;
+    height: 35px;
+    width: 100px;
+    border-radius: 2px;
+    background: linear-gradient( rgba(30,219,183,1), rgba(14,183,220,1));
+    color: #fff;
+    border: none;
+}
+
+@media screen and (max-width: 991px){
+    .img-div{
+        width: 400px;
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width: 767px){
+    .contact-div{
+        text-align: center;
+    }
+    input[type="text"]{
+        width: 350px;
+    } 
+}

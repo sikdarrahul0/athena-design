@@ -1,0 +1,44 @@
+.dedicate-section{
+    text-align: center;
+    background-image: url('https://i.ibb.co/wJ6Y1fH/Group-46-2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100 100;
+}
+.card-package{
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    background-color: white;
+    border-radius: 4px;
+    height: 470px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+.card-package:hover{
+    cursor: pointer;
+    border: rgba(30,219,183,1) 2px solid;
+}
+
+.dedicate-section h1{
+    font-weight: bold;
+}
+.package-details p{
+    font-weight: bold;
+}
+.button-design{
+    background: linear-gradient(0deg, rgba(30,219,183,1) 0%, rgba(14,183,220,1) 100%);
+    border-radius: 25px 2px;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+.button-design:focus{
+    outline: none;
+    background: linear-gradient(0deg,  rgba(14,183,220,1) 0%, rgba(30,219,183,1) 100%);
+}
+
+@media screen and (max-width: 991px){
+    .card-package{
+        margin: 20px auto;
+    }
+}
